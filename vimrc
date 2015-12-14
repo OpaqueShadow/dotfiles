@@ -5,6 +5,7 @@
 "Plugins: Gundo
 
 set nocompatible " disable compatibility mode.
+call pathogen#infect() " load plugins
 filetype indent plugin on " enable auto-detection fo filetype.
 syntax on " enable syntax highlighting.
 set wildmenu " enable better tab completion.
@@ -32,6 +33,10 @@ nnoremap <space> za
 "maps space to open/close folds
 set foldmethod=indent " fold based on indent level
 nnoremap <F5> :GundoToggle<CR>
-call pathogen#infect()
 " In Makefiles DO NOT use spaces instead of tabs
 autocmd FileType make setlocal noexpandtab
+set backup
+set backupdir=~/.vim-tmp,~/.tmp,/tmp " define backup location
+set backupskip=/tmp/*,/private/tmp/* " set ignored files for backup
+set directory=~/.vim-tmp,~/.tmp,/tmp " define swapfile location
+set writebackup
