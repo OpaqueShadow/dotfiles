@@ -1,0 +1,63 @@
+! ------------------------------------------------------------------------------
+! RXVT-Unicode
+! ------------------------------------------------------------------------------
+URxvt.inheritPixmap:	true
+URxvt.tintColor :	SlateGrey
+URxvt.fading:		30
+URxvt.transparent:	true
+URxvt.shading:		80
+
+*background: #232C31
+*foreground: #C5C8C6
+! black
+*color0: #2D3C46
+*color8: #425059
+! red
+*color1: #A54242
+*color9: #CC6666
+! green
+*color2: #8C9440
+*color10: #B5BD68
+! yellow
+*color3: #DE935F
+*color11: #F0C674
+! blue
+*color4: #5F819D
+*color12: #81A2BE
+! Violet
+*color5: #FF00FF
+*color13: #FF00FF
+! Cyan
+*color6: #00FFFF
+*color14: #00FFFF
+! white
+*color7: #6C7A80
+*color15: #C5C8C6
+
+! ------------------------------------------------------------------------------
+! ROFI Theme
+! ------------------------------------------------------------------------------
+! Use extended color scheme
+rofi.color-enabled:                  true
+! Color scheme for normal row
+rofi.color-normal:                   argb:a02f1e2e, #b4b4b4, argb:a02f1e2e, argb:54815ba4, #ffffff
+! Color scheme for urgent row
+rofi.color-urgent:                   argb:272f1e2e, #ef6155, argb:2f2f1e2e, argb:54815ba4, #ef6155
+! Color scheme for active row
+rofi.color-active:                   argb:272f1e2e, #815ba4, argb:2f2f1e2e, argb:54815ba4, #815ba4
+! Color scheme window
+rofi.color-window:                   #2f1e2e, argb:36ef6155, argb:2fef6155
+! Separator style (none, dash, solid)
+rofi.separator-style:                dash
+! Number of lines to display
+rofi.lines:			     5
+! Opacity of Menu
+rofi.opacity:			     90
+! Border Width
+rofi.bw:			     0
+! Padding for the menu
+rofi.padding:			     200
+! Menu Width
+rofi.width:			     150
+! Fullscreen the menu
+rofi.fullscreen:		     true
