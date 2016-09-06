@@ -6,7 +6,7 @@ URxvt.tintColor :	SlateGrey
 URxvt.fading:		30
 URxvt.transparent:	true
 URxvt.shading:		80
-URxvt.font:             xft:Monaco:size=11
+URxvt.font:             xft:Monaco:size=13
 
 *background: #232C31
 *foreground: #C5C8C6
