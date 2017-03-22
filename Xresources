@@ -5,7 +5,7 @@ URxvt.inheritPixmap:	true
 URxvt.tintColor :	SlateGrey
 URxvt.fading:		30
 URxvt.transparent:	true
-URxvt.shading:		80
+URxvt.shading:		90
 URxvt.font:             xft:Monaco:size=13
 
 *background: #232C31
