@@ -41,7 +41,7 @@ URxvt.font:             xft:Monaco:size=13
 ! Use extended color scheme
 rofi.color-enabled:                  true
 !Window Colors
-rofi.color-window: argb:a6000709, argb:0002b37, #003642
+rofi.color-window: argb:a6000709, argb:a0002b37, #003642
 !Normal Row Colors
 rofi.color-normal: #002b37, #819396, #002b37, #003642, #819396
 !Active Row Colors
