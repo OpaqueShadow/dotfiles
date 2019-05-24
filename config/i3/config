@@ -189,5 +189,6 @@ hide_edge_borders both
 
 bindsym $mod+shift+x exec i3lock -- color "Grey"
 exec compton -f
+exec redshift
 exec_always feh -d --bg-scale -s ~/Pictures/bg.png
 exec_always xrdb -load ~/.Xresources
