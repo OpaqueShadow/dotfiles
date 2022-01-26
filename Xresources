@@ -34,31 +34,3 @@ URxvt.font:             xft:Monaco:size=13
 ! white
 *color7: #6C7A80
 *color15: #C5C8C6
-
-! ------------------------------------------------------------------------------
-! ROFI Theme
-! ------------------------------------------------------------------------------
-! Use extended color scheme
-rofi.color-enabled:                  true
-!Window Colors
-rofi.color-window: argb:a6000709, argb:a0002b37, #003642
-!Normal Row Colors
-rofi.color-normal: #002b37, #819396, #002b37, #003642, #819396
-!Active Row Colors
-rofi.color-active: #002b37, #008ed4, #002b37, #003642, #008ed4
-!Urgent Row Colors
-rofi.color-urgent: #002b37, #da4281, #002b37, #003642, #da4281
-! Separator style (none, dash, solid)
-rofi.separator-style:                dash
-! Number of lines to display
-rofi.lines:			     5
-! Opacity of Menu
-rofi.opacity:			     100
-! Border Width
-rofi.bw:			     0
-! Padding for the menu
-rofi.padding:			     200
-! Menu Width
-rofi.width:			     150
-! Fullscreen the menu
-rofi.fullscreen:		     true
